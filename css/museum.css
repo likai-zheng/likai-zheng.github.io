@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Saira+Extra+Condensed');
+
+.museum{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  margin: 0 0;
+  width: 100%;
+  text-align: center;
+}
+
+.museum-title{
+  text-transform:uppercase;
+  font-size: 200%;
+  margin: 35px 0;
+}
+
+.museum-images > figure{
+  display: inline-block;
+}
+
+.museum-image > img{
+cursor:pointer;
+ width: 300px;
+ height: 200px;
+ margin: 0 20px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ filter: blur(2px);
+}
+
+.museum-image > img:hover{
+  filter: blur(0);
+}
+
+.nav-down, .nav-up  {
+  height: 2rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.nav-up {
+  display: none;
+  transform: rotate(180deg);
+}
+ .nav-down svg, .nav-up svg {
+  fill: green;
+  width: 100%;
+  max-height: 100%;
+}
+.nav-down svg:hover, .nav-up svg:hover{
+  fill: #33cc33;
+}
+
+.museum-images-more{
+  display: none;
+}

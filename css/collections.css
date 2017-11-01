@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Saira+Extra+Condensed');
+
+.collections{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  margin: 0 0;
+  width: 100%;
+  text-align: center;
+}
+
+.collections-title{
+  text-transform:uppercase;
+  font-size: 200%;
+  margin: 35px 0;
+}
+
+.tab-link{
+  display: inline-block;
+  width: 18%;
+}
+
+.tab-link-letter{
+  font-size: 500%;
+  font-family: 'Anton', sans-serif;
+  font-weight: bold;
+  animation-duration: 7s;
+}
+
+.animation-even{
+  animation-delay: 1s;
+}
+
+.animation-odd{
+  animation-delay: 0.5s;
+}
+
+.tab-link-title{
+  margin-top: 0px;
+  font-size: 200%;
+  color: #000000;
+  animation-duration: 3s;
+}
+
+.tab-link-title-active > span{
+    text-decoration: underline;    
+    text-decoration-color: #33cc33;
+}
+
+.tab-link-description{
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.tab-link-description > ul{
+  font-size: 110%;
+  list-style: none ;
+  font-weight: lighter;
+}
+
+.tabs-content{
+  width: 100%;
+}
+
+.my-gallery {
+  width: 90%;
+}
+.my-gallery img {
+  width: 250px;
+  height: 250px;
+  opacity: 0.5;
+  filter: grayscale(70%) blur(1px);
+}
+
+.my-gallery img:hover{
+  filter: grayscale(0%);
+  opacity: 1;
+}
+.my-gallery figure {
+  display: inline-block;
+  margin: 0 5px;
+  width: 23%;
+  height: 300px;
+}
+.my-gallery figcaption {
+  display: none;
+}
