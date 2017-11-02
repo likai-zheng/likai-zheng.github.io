@@ -30,23 +30,14 @@ cursor:pointer;
   filter: blur(0);
 }
 
-.nav-down, .nav-up  {
-  height: 2rem;
-  cursor: pointer;
-  font-weight: bold;
+#museum-images-load-more , #museum-images-load-less {
+  font-size: 150%;
+  color: #33b5a8;
+  margin: 20px 0;
 }
 
-.nav-up {
+#museum-images-load-less{
   display: none;
-  transform: rotate(180deg);
-}
- .nav-down svg, .nav-up svg {
-  fill: green;
-  width: 100%;
-  max-height: 100%;
-}
-.nav-down svg:hover, .nav-up svg:hover{
-  fill: #33cc33;
 }
 
 .museum-images-more{

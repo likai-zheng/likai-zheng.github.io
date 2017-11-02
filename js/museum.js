@@ -1,14 +1,15 @@
 $(function () { 
-  $("#arrow-down").click(function () { 
+  $("#museum-images-load-more").click(function () { 
     $(".museum-images-more").show();
-    $(".nav-down").hide();
-    $(".nav-up").show();
+    $("#museum-images-load-more").hide();
+    $("#museum-images-load-less").show();
   })
 
-  $("#arrow-up").click(function () { 
+  $("#museum-images-load-less").click(function () { 
     $(".museum-images-more").hide();
-    $(".nav-down").show();
-    $(".nav-up").hide();
+    $("#museum-images-load-more").show();
+    $("#museum-images-load-less").hide();
+  
   })
 
   $('.museum-image').click(function () { 
