@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Frijole|Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Righteous|Ubuntu');
 
 .logo{
   width: 150px;
@@ -9,7 +9,7 @@
 }
 
 .slide-title, .slide-title-small{
-  font-family: 'Frijole', cursive;
+  font-family: 'Righteous', cursive;
   font-size: 70px;
 }
 

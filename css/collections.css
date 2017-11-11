@@ -64,20 +64,21 @@
   width: 90%;
 }
 .my-gallery img {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 200px;
   opacity: 0.5;
-  filter: grayscale(70%) blur(1px);
+  filter: grayscale(90%) blur(1px);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .my-gallery img:hover{
-  filter: grayscale(0%);
+  filter: grayscale(0%) blur(0);
   opacity: 1;
 }
 .my-gallery figure {
   display: inline-block;
-  margin: 0 5px;
-  width: 23%;
+  margin: 0 0px;
+  width: 32%;
   height: 300px;
 }
 .my-gallery figcaption {
