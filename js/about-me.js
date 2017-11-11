@@ -11,3 +11,9 @@ window.onload = function(){
   c++;    
     }  
   }
+
+  $(function () { 
+    $('.link').click(function () { 
+      window.open($(this).find('a').attr('href'), 'social network'); 
+    })
+  })
