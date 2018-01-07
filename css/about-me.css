@@ -236,7 +236,7 @@ list-style: none;
 }
 
 .cont_tabs > ul > li > a {
-border-top: 7px solid #ED346C;
+border-top: 7px solid white;
   position: relative;
   display: block;
   float: left;
@@ -247,7 +247,7 @@ padding-top: 15px;
 font-size: 14px;
 }
 
-.cont_tabs > ul > li:first-child > a
+.cont_tabs > ul > li > a
 {
   border-top: 7px solid rgba(237, 52, 108, 0);
   margin-top: 0px;
@@ -258,7 +258,7 @@ transition: all 0.5s;
 transition: all 0.2s;
 }
 
-.cont_tabs > ul > li:first-child > a:hover {
+.cont_tabs > ul > li> a:hover {
   border-top: 7px solid #ED346C;
 padding-top: 15px;
   color: #241C3E;
@@ -315,7 +315,7 @@ color: #36354E;
   margin-left: 50px;
 border-left: 2px solid #E3E3E3; 
 font-size: 12px;
-  padding: 20px 0px;
+  padding: 2px 0px;
 padding-left: 20px;
 text-align: left;
 padding-right: 15px;
