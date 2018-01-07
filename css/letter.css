@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Saira+Extra+Condensed');
+
+body, html {
+  background: #E4E0E0;
+  margin: 8%;
+}
+
+div {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 25px;
+}
